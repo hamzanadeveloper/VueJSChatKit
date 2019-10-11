@@ -1,10 +1,10 @@
 <template>
     <div class="chat-dashboard">
-        <ChatNavBar />
+        <ChatNavBar style="margin-bottom: 0" />
         <b-container fluid class="ld-over" v-bind:class="{ running: loading }">
         <div class="ld ld-ring ld-spin"></div>
         <b-row>
-            <b-col cols="2">
+            <b-col class="side-container"  cols="2">
                 <RoomList />
             </b-col>
 
@@ -21,7 +21,7 @@
                 </b-row>
             </b-col>
 
-            <b-col cols="2">
+            <b-col class="side-container" cols="2">
                 <UserList />
             </b-col>
         </b-row>
@@ -53,3 +53,11 @@
         }
     }
 </script>
+
+<style>
+    .side-container{
+        background: rgb(53,56,58);
+        padding-top: 15px;
+        margin-bottom: -23px;
+    }
+</style>
