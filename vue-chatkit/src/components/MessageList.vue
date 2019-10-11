@@ -44,7 +44,7 @@
         padding-right: 15px;
     }
     .message-group {
-        height: 66vh !important;
+        height: 70vh !important;
         overflow-y: scroll;
     }
     .message {

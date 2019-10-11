@@ -5,7 +5,8 @@
             <div class="ld ld-ring ld-spin"></div>
             <b-alert variant="danger" :show="hasError">{{ error }} </b-alert>
             <b-form-group>
-                <b-form-input id="message-input"
+                <b-form-input style="background-color: rgb(71,74,81); border:1px solid rgb(70,70,70);color: #d0d0d0;"
+                              id="message-input"
                               type="text"
                               v-model="message"
                               @input="isTyping"
