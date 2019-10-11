@@ -35,7 +35,7 @@
     }
 </script>
 <style>
-    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Montserrat|Lato&display=swap');
 
     .channel-header{
         font-family: 'Fjalla One', sans-serif;
