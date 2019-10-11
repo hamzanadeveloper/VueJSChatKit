@@ -14,11 +14,6 @@
                               required>
                 </b-form-input>
             </b-form-group>
-            <div class="clearfix">
-                <b-button type="submit" variant="primary" class="float-right">
-                    Send
-                </b-button>
-            </div>
         </b-form>
     </div>
 </template>
