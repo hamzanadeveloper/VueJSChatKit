@@ -3,7 +3,7 @@
         <span class="channel-header">MEMBERS</span>
         <hr>
         <b-list-group>
-            <b-list-group-item style="background: rgb(53,56,58);color: #d0d0d0;border:none;" class="channel-container" v-for="user in users" :key="user.username">
+            <b-list-group-item style="background: rgb(53,56,58);color: #d0d0d0;border:none;" class="user-container" v-for="user in users" :key="user.username">
                 <b-badge v-if="user.presence"
                          :variant="statusColor(user.presence)"
                          style="height: 13px;width: 12px;margin-right:5px;"
@@ -42,7 +42,7 @@
         color: #d0d0d0;
         font-size: 17px;
     }
-    .channel-container{
+    .user-container{
         font-family: Montserrat, sans-serif;
         font-size: 11px;
         padding: 8px;

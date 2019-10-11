@@ -1,6 +1,6 @@
 <template>
     <div class="message-list">
-        <h4>Messages</h4>
+        <span class="channel-header">{{activeRoom.name.toUpperCase()}}</span>
         <hr>
         <div id="chat-messages" class="message-group" v-chat-scroll="{smooth: true}">
             <div class="message" v-for="(message, index) in messages" :key="index">
@@ -30,6 +30,7 @@
         computed: {
             ...mapState([
                 'messages',
+                'activeRoom',
                 'userTyping'
             ])
         }

@@ -8,7 +8,7 @@
                 <RoomList />
             </b-col>
 
-            <b-col cols="8">
+            <b-col class="main-container" cols="8">
                 <b-row>
                     <b-col id="chat-content">
                         <MessageList />
@@ -59,5 +59,13 @@
         background: rgb(53,56,58);
         padding-top: 15px;
         margin-bottom: -23px;
+    }
+    .main-container{
+        background: rgb(60, 64, 66);
+        padding-top: 15px;
+        margin-bottom: -23px;
+        padding-bottom: 8px;
+        border-left: 1px solid rgb(70, 70, 70);
+        border-right: 1px solid rgb(70, 70, 70);
     }
 </style>
