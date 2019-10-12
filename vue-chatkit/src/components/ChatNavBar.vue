@@ -55,6 +55,7 @@
         -webkit-box-shadow:0px 1px 1px #060106;
         -moz-box-shadow:0px 1px 1px #060106;
         box-shadow:0px 1px 1px #060106;
+        border-bottom: 1px solid rgb(30,30,30);
     }
 
     .vue-title{
