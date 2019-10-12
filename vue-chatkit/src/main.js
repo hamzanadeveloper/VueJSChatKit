@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
 import VueChatScroll from 'vue-chat-scroll'
+import VueParticles from 'vue-particles'
 
 import App from './App.vue'
 import router from './router'
@@ -14,6 +15,7 @@ import './assets/css/loading-btn.css'
 Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(VueChatScroll)
+Vue.use(VueParticles)
 
 new Vue({
   router,
